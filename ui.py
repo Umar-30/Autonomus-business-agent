@@ -37,6 +37,27 @@ def run_gui():
             st.write("No history file found.")
         
         st.divider()
+        st.header("🤖 About the Agent")
+        st.markdown("""
+        **Autonomous Business Agent** 🚀  
+        An AI-powered partner that:
+        - 🧠 **Plans:** Breaks goals into tasks.
+        - 🔍 **Researches:** Finds leads & info.
+        - ✉️ **Outreaches:** Drafts & sends emails.
+        - 📊 **Summarizes:** Delivers final reports.
+        
+        Built with **LangGraph** & **Cohere**.
+        """)
+
+        st.divider()
+        st.header("💡 Sample Goals")
+        st.markdown("""
+        Try these to test the agent:
+        1. *\"Find 3 SEO agencies in London and draft a cold email.\"*
+        2. *\"Search for top 3 AI trends in 2024 and summarize them.\"*
+        """)
+
+        st.divider()
         st.header("Agent Info")
         st.info("This agent uses LangGraph and Cohere LLM to autonomously perform business tasks.")
         if st.button("Clear File History", key="clear_history_btn"):
