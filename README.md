@@ -1,3 +1,14 @@
+---
+title: Autonomous Business Agent
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.57.0
+app_file: ui.py
+pinned: false
+---
+
 # 🚀 Autonomous Business Agent
 
 An AI-powered agent built with **LangGraph** and **Cohere** that autonomously plans and executes business goals. From market research to lead generation and outreach, this agent handles the workflow for you.
